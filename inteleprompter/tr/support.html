@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>inTelePrompter — Destek</title>
+<style>
+  :root{--bg:#0A1520;--bg2:#0F1B2A;--card:#152435;--text:#F4F7FA;--sub:#A8B4C0;--accent:#E8833A;--border:rgba(232,131,58,.25)}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:linear-gradient(180deg,var(--bg) 0%,var(--bg2) 100%);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.6;min-height:100vh}
+  .wrap{max-width:720px;margin:0 auto;padding:48px 24px 64px}
+  h1{font-size:2rem;letter-spacing:-.02em;margin-bottom:8px}
+  h1 .accent{color:var(--accent)}
+  .tagline{color:var(--sub);margin-bottom:36px}
+  .contact{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:28px;margin-bottom:40px;text-align:center}
+  .contact h2{font-size:1.15rem;margin-bottom:6px}
+  .contact p{color:var(--sub);font-size:.95rem;margin-bottom:18px}
+  .btn{display:inline-block;background:var(--accent);color:#0A1520;font-weight:600;padding:12px 28px;border-radius:12px;text-decoration:none}
+  .btn:hover{filter:brightness(1.08)}
+  .email-plain{display:block;margin-top:14px;color:var(--sub);font-size:.9rem}
+  .email-plain a{color:var(--accent);text-decoration:none}
+  h3{font-size:1.2rem;margin:32px 0 12px;color:var(--accent)}
+  details{background:var(--card);border-radius:12px;margin-bottom:10px;border:1px solid rgba(255,255,255,.06)}
+  summary{padding:14px 18px;cursor:pointer;font-weight:600;list-style:none}
+  summary::-webkit-details-marker{display:none}
+  summary::before{content:"▸ ";color:var(--accent)}
+  details[open] summary::before{content:"▾ "}
+  details p{padding:0 18px 16px;color:var(--sub);font-size:.95rem}
+  footer{margin-top:48px;padding-top:20px;border-top:1px solid rgba(255,255,255,.08);color:var(--sub);font-size:.85rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+  footer a{color:var(--accent);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>in<span class="accent">Tele</span>Prompter</h1>
+  <p class="tagline">Destek — her e-postayı okuyoruz.</p>
+
+  <div class="contact">
+    <h2>İletişime geç</h2>
+    <p>Sorular, hata bildirimleri, özellik fikirleri ya da sadece merhaba demek istiyorsan — bize bir satır yaz. Her mesajı bir insan okur.</p>
+    <a class="btn" href="mailto:support.threecode@gmail.com?subject=inTelePrompter%20Support">Destek Ekibine E-posta Gönder</a>
+    <span class="email-plain">ya da bize yaz: <a href="mailto:support.threecode@gmail.com">support.threecode@gmail.com</a></span>
+  </div>
+
+  <h3>Sıkça sorulan sorular</h3>
+
+  <details>
+    <summary>inTelePrompter hangi dilleri destekler?</summary>
+    <p>Uygulamanın tamamı — her ekran, menü ve rehber — 14 dilde sunulur. Kendi dilini Ayarlar → Dil'den seç. Senaryoların herhangi bir dilde yazılabilir.</p>
+  </details>
+
+  <details>
+    <summary>Bir senaryoyu nasıl içe aktarırım?</summary>
+    <p>Kitaplık → + menüsü → Dosyayı İçe Aktar. PDF ve düz metin dahil tüm yaygın formatlarda doğrudan Dosyalar uygulamasından içe aktarabilirsin. Ayrıca editörde sıfırdan senaryolar da oluşturabilirsin.</p>
+  </details>
+
+  <details>
+    <summary>Akıllı Duraklatma nedir ve nasıl çalışır?</summary>
+    <p>Senaryonun ortasında okumayı bırakırsan, inTelePrompter sessizliği fark eder (yaklaşık 3 saniye sonra — Ayarlar'dan ayarlanabilir) ve senaryoyu en son konuştuğun yere geri sarar, böylece tam kaldığın yerden devam edebilirsin. Yalnızca ses etkinliği algılama kullanır: sesin asla kaydedilmez, iletilmez veya senaryonun içeriğiyle karşılaştırılmaz ve çok gürültülü odalarda kendini kibarca devre dışı bırakır.</p>
+  </details>
+
+  <details>
+    <summary>Hey Telly sesli komutlarını nasıl kullanırım?</summary>
+    <p>Hey Telly'yi Ayarlar'dan etkinleştir, ardından performans sırasında prompter'ı eller serbest kontrol et — oynat, duraklat, daha hızlı, geri sar ve daha fazlası. Komutlar, o dil için cihaz üzerinde dikte özelliği mevcut olduğunda uygulama dilinde çalışır (bunu iOS Ayarları → Genel → Klavye → Dikte'den etkinleştirebilirsin); aksi takdirde İngilizce komutlar kullanılır. Hey Telly, tamamen cihazında kapalı kelime dağarcığı (closed-vocabulary) tanıma kullanır — yalnızca bu kısa komutları dinler, başka hiçbir şeyi tanıyamaz ve sesini asla metne dönüştürmez veya depolamaz.</p>
+  </details>
+
+  <details>
+    <summary>Kayıtlarım — nereye gidiyor?</summary>
+    <p>Kaydettiğin videolar doğrudan Fotoğraflar kitaplığına kaydedilir. inTelePrompter yalnızca ekleme erişimine sahiptir: yeni videolar kaydedebilir ancak mevcut fotoğraflarını asla okuyamaz, tarayamaz veya değiştiremez.</p>
+  </details>
+
+  <details>
+    <summary>Uygulama çevrimdışı çalışır mı?</summary>
+    <p>Tamamen. Hesap yok, sunucu yok ve giriş yapılacak hiçbir şey yok. Her şey — senaryoların, ayarların ve tüm işleme — cihazında kalır.</p>
+  </details>
+
+  <details>
+    <summary>Geri ödemeler nasıl işler?</summary>
+    <p>Satın almalar Apple tarafından yönetilir, bu nedenle geri ödeme talepleri onlar üzerinden gider: <a style="color:var(--accent)" href="https://reportaproblem.apple.com">reportaproblem.apple.com</a> adresini ziyaret et, Apple Hesabınla giriş yap ve satın almayı seç. Apple genellikle bir iki gün içinde yanıt verir.</p>
+  </details>
+
+  <details>
+    <summary>Bir hata buldum. E-postama ne eklemeliyim?</summary>
+    <p>Cihaz modelin, iOS sürümün, uygulama dilin ve olay gerçekleştiğinde ne yaptığın. Ekran görüntüleri veya ekran kayıtları çok değerlidir. Hataları ciddiye alıyoruz — çoğu düzeltme bir sonraki güncellemede sunulur.</p>
+  </details>
+
+  <footer>
+    <span>© 2026 ThreeCode. Tüm hakları saklıdır.</span>
+    <a href="privacy.html">Gizlilik Politikası</a>
+  </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>inTelePrompter — Support</title>
+<style>
+  :root{--bg:#0A1520;--bg2:#0F1B2A;--card:#152435;--text:#F4F7FA;--sub:#A8B4C0;--accent:#E8833A;--border:rgba(232,131,58,.25)}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:linear-gradient(180deg,var(--bg) 0%,var(--bg2) 100%);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.6;min-height:100vh}
+  .wrap{max-width:720px;margin:0 auto;padding:48px 24px 64px}
+  h1{font-size:2rem;letter-spacing:-.02em;margin-bottom:8px}
+  h1 .accent{color:var(--accent)}
+  .tagline{color:var(--sub);margin-bottom:36px}
+  .contact{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:28px;margin-bottom:40px;text-align:center}
+  .contact h2{font-size:1.15rem;margin-bottom:6px}
+  .contact p{color:var(--sub);font-size:.95rem;margin-bottom:18px}
+  .btn{display:inline-block;background:var(--accent);color:#0A1520;font-weight:600;padding:12px 28px;border-radius:12px;text-decoration:none}
+  .btn:hover{filter:brightness(1.08)}
+  .email-plain{display:block;margin-top:14px;color:var(--sub);font-size:.9rem}
+  .email-plain a{color:var(--accent);text-decoration:none}
+  h3{font-size:1.2rem;margin:32px 0 12px;color:var(--accent)}
+  details{background:var(--card);border-radius:12px;margin-bottom:10px;border:1px solid rgba(255,255,255,.06)}
+  summary{padding:14px 18px;cursor:pointer;font-weight:600;list-style:none}
+  summary::-webkit-details-marker{display:none}
+  summary::before{content:"▸ ";color:var(--accent)}
+  details[open] summary::before{content:"▾ "}
+  details p{padding:0 18px 16px;color:var(--sub);font-size:.95rem}
+  footer{margin-top:48px;padding-top:20px;border-top:1px solid rgba(255,255,255,.08);color:var(--sub);font-size:.85rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+  footer a{color:var(--accent);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>in<span class="accent">Tele</span>Prompter</h1>
+  <p class="tagline">Support — nous lisons chaque e-mail.</p>
+
+  <div class="contact">
+    <h2>Contacte-nous</h2>
+    <p>Des questions, des rapports de bug, des idées de fonctionnalités, ou juste envie de dire bonjour — écris-nous un mot. Un humain lit chaque message.</p>
+    <a class="btn" href="mailto:support.threecode@gmail.com?subject=inTelePrompter%20Support">Contacter le support</a>
+    <span class="email-plain">ou écris à <a href="mailto:support.threecode@gmail.com">support.threecode@gmail.com</a></span>
+  </div>
+
+  <h3>Questions fréquentes</h3>
+
+  <details>
+    <summary>Quelles langues inTelePrompter prend-il en charge ?</summary>
+    <p>L'application complète — chaque écran, menu et guide — est disponible en 14 langues. Choisis la tienne dans Réglages → Langue. Tes scripts peuvent être rédigés dans n'importe quelle langue.</p>
+  </details>
+
+  <details>
+    <summary>Comment importer un script ?</summary>
+    <p>Bibliothèque → le menu + → Importer un fichier. Tu peux importer directement depuis l'app Fichiers dans tous les principaux formats, y compris le PDF et le texte brut. Tu peux aussi créer des scripts de zéro dans l'éditeur.</p>
+  </details>
+
+  <details>
+    <summary>Qu'est-ce que la Pause intelligente et comment fonctionne-t-elle ?</summary>
+    <p>Si tu arrêtes de lire en plein script, inTelePrompter remarque le silence (après environ 3 secondes — réglable dans les Réglages) et ramène le script là où tu as parlé pour la dernière fois, pour que tu reprennes exactement là où tu t'étais arrêté. Il utilise uniquement la détection d'activité audio : ta voix n'est jamais enregistrée, transmise, ni comparée au contenu de ton script, et il se désactive poliment dans les pièces très bruyantes.</p>
+  </details>
+
+  <details>
+    <summary>Comment utiliser les commandes vocales Hey Telly ?</summary>
+    <p>Active Hey Telly dans les Réglages, puis contrôle le prompteur en mains libres pendant ta prestation — lecture, pause, plus vite, retour, et plus encore. Les commandes fonctionnent dans la langue de ton application lorsque la dictée sur l'appareil est disponible pour cette langue sur ton appareil (tu peux l'activer dans Réglages iOS → Général → Clavier → Dictée) ; sinon, les commandes en anglais sont utilisées. Hey Telly utilise la reconnaissance de commandes à vocabulaire fermé entièrement sur ton appareil — il n'écoute que ces courtes commandes et rien d'autre, et ne transcrit ni ne stocke jamais ton audio.</p>
+  </details>
+
+  <details>
+    <summary>Mes enregistrements — où vont-ils ?</summary>
+    <p>Les vidéos que tu enregistres sont sauvegardées directement dans ta photothèque. inTelePrompter dispose d'un accès en ajout seul : il peut sauvegarder de nouvelles vidéos mais ne peut jamais lire, parcourir ni modifier tes photos existantes.</p>
+  </details>
+
+  <details>
+    <summary>L'application fonctionne-t-elle hors ligne ?</summary>
+    <p>Entièrement. Aucun compte, aucun serveur, rien où se connecter. Tout — tes scripts, tes réglages et tout le traitement — reste sur ton appareil.</p>
+  </details>
+
+  <details>
+    <summary>Comment fonctionnent les remboursements ?</summary>
+    <p>Les achats sont gérés par Apple, donc les demandes de remboursement passent par lui : rends-toi sur <a style="color:var(--accent)" href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>, connecte-toi avec ton compte Apple, puis choisis l'achat concerné. Apple répond généralement en un jour ou deux.</p>
+  </details>
+
+  <details>
+    <summary>J'ai trouvé un bug. Que dois-je inclure dans mon e-mail ?</summary>
+    <p>Le modèle de ton appareil, ta version d'iOS, la langue de l'application, et ce que tu faisais au moment où c'est arrivé. Les captures d'écran ou les enregistrements d'écran sont précieux. Nous prenons les bugs au sérieux — la plupart des correctifs arrivent dans la mise à jour suivante.</p>
+  </details>
+
+  <footer>
+    <span>© 2026 ThreeCode. Tous droits réservés.</span>
+    <a href="privacy.html">Politique de confidentialité</a>
+  </footer>
+</div>
+</body>
+</html>
