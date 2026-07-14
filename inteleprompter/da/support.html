@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>inTelePrompter — Support</title>
+<style>
+  :root{--bg:#0A1520;--bg2:#0F1B2A;--card:#152435;--text:#F4F7FA;--sub:#A8B4C0;--accent:#E8833A;--border:rgba(232,131,58,.25)}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:linear-gradient(180deg,var(--bg) 0%,var(--bg2) 100%);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.6;min-height:100vh}
+  .wrap{max-width:720px;margin:0 auto;padding:48px 24px 64px}
+  h1{font-size:2rem;letter-spacing:-.02em;margin-bottom:8px}
+  h1 .accent{color:var(--accent)}
+  .tagline{color:var(--sub);margin-bottom:36px}
+  .contact{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:28px;margin-bottom:40px;text-align:center}
+  .contact h2{font-size:1.15rem;margin-bottom:6px}
+  .contact p{color:var(--sub);font-size:.95rem;margin-bottom:18px}
+  .btn{display:inline-block;background:var(--accent);color:#0A1520;font-weight:600;padding:12px 28px;border-radius:12px;text-decoration:none}
+  .btn:hover{filter:brightness(1.08)}
+  .email-plain{display:block;margin-top:14px;color:var(--sub);font-size:.9rem}
+  .email-plain a{color:var(--accent);text-decoration:none}
+  h3{font-size:1.2rem;margin:32px 0 12px;color:var(--accent)}
+  details{background:var(--card);border-radius:12px;margin-bottom:10px;border:1px solid rgba(255,255,255,.06)}
+  summary{padding:14px 18px;cursor:pointer;font-weight:600;list-style:none}
+  summary::-webkit-details-marker{display:none}
+  summary::before{content:"▸ ";color:var(--accent)}
+  details[open] summary::before{content:"▾ "}
+  details p{padding:0 18px 16px;color:var(--sub);font-size:.95rem}
+  footer{margin-top:48px;padding-top:20px;border-top:1px solid rgba(255,255,255,.08);color:var(--sub);font-size:.85rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+  footer a{color:var(--accent);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>in<span class="accent">Tele</span>Prompter</h1>
+  <p class="tagline">Support — vi læser hver e-mail.</p>
+
+  <div class="contact">
+    <h2>Kom i kontakt</h2>
+    <p>Spørgsmål, fejlrapporter, funktionsidéer, eller vil du bare sige hej — så skriv til os. Et rigtigt menneske læser hver besked.</p>
+    <a class="btn" href="mailto:support.threecode@gmail.com?subject=inTelePrompter%20Support">Skriv til support</a>
+    <span class="email-plain">eller skriv til <a href="mailto:support.threecode@gmail.com">support.threecode@gmail.com</a></span>
+  </div>
+
+  <h3>Ofte stillede spørgsmål</h3>
+
+  <details>
+    <summary>Hvilke sprog understøtter inTelePrompter?</summary>
+    <p>Hele appen — hver skærm, menu og guide — leveres på 14 sprog. Vælg dit i Indstillinger → Sprog. Dine manuskripter kan skrives på et hvilket som helst sprog.</p>
+  </details>
+
+  <details>
+    <summary>Hvordan importerer jeg et manuskript?</summary>
+    <p>Bibliotek → +-menuen → Importer fil. Du kan importere direkte fra Filer-appen i alle større formater, inklusive PDF og almindelig tekst. Du kan også oprette manuskripter fra bunden i editoren.</p>
+  </details>
+
+  <details>
+    <summary>Hvad er Smart Pause, og hvordan fungerer det?</summary>
+    <p>Hvis du holder op med at læse midt i et manuskript, bemærker inTelePrompter stilheden (efter ca. 3 sekunder — justerbart i Indstillinger) og spoler manuskriptet tilbage til der, hvor du sidst talte, så du kan fortsætte præcis, hvor du slap. Den bruger kun lydaktivitetsdetektion: din stemme bliver aldrig optaget, overført eller sammenlignet med dit manuskriptindhold, og den deaktiverer sig høfligt selv i meget støjende rum.</p>
+  </details>
+
+  <details>
+    <summary>Hvordan bruger jeg Hey Telly-stemmekommandoer?</summary>
+    <p>Aktiver Hey Telly i Indstillinger, og styr derefter prompteren håndfrit, mens du optræder — play, pause, faster, rewind og mere. Kommandoerne fungerer på dit app-sprog, når diktering på enheden er tilgængelig for det sprog på din enhed (du kan aktivere den i iOS Indstillinger → Generelt → Tastatur → Diktering); ellers bruges engelske kommandoer. Al genkendelse kører udelukkende på din enhed.</p>
+  </details>
+
+  <details>
+    <summary>Mine optagelser — hvor havner de?</summary>
+    <p>Videoer, du optager, gemmes direkte i dit fotobibliotek. inTelePrompter har kun tilføjelsesadgang: appen kan gemme nye videoer, men kan aldrig læse, gennemse eller ændre dine eksisterende fotos.</p>
+  </details>
+
+  <details>
+    <summary>Fungerer appen offline?</summary>
+    <p>Fuldstændigt. Der er ingen konti, ingen servere og intet at logge ind på. Alt — dine manuskripter, indstillinger og al behandling — bliver på din enhed.</p>
+  </details>
+
+  <details>
+    <summary>Hvordan fungerer refusioner?</summary>
+    <p>Køb håndteres af Apple, så anmodninger om refusion går gennem dem: gå til <a style="color:var(--accent)" href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>, log ind med din Apple-konto, og vælg købet. Apple svarer typisk inden for en dag eller to.</p>
+  </details>
+
+  <details>
+    <summary>Jeg har fundet en fejl. Hvad skal jeg inkludere i min e-mail?</summary>
+    <p>Din enhedsmodel, iOS-version, app-sprog og hvad du var i gang med, da det skete. Skærmbilleder eller skærmoptagelser er guld værd. Vi tager fejl alvorligt — de fleste rettelser udkommer i den næste opdatering.</p>
+  </details>
+
+  <footer>
+    <span>© 2026 ThreeCode. Alle rettigheder forbeholdes.</span>
+    <a href="privacy.html">Privatlivspolitik</a>
+  </footer>
+</div>
+</body>
+</html>
