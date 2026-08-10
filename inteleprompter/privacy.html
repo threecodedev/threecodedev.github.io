@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>inTelePrompter — Privacy Policy</title>
+<style>
+  :root{--bg:#0A1520;--bg2:#0F1B2A;--card:#152435;--text:#F4F7FA;--sub:#A8B4C0;--accent:#E8833A;--border:rgba(232,131,58,.25)}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:linear-gradient(180deg,var(--bg) 0%,var(--bg2) 100%);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.65;min-height:100vh}
+  .wrap{max-width:720px;margin:0 auto;padding:48px 24px 64px}
+  h1{font-size:1.8rem;letter-spacing:-.02em;margin-bottom:4px}
+  h1 .accent{color:var(--accent)}
+  h1 .wm-in{color:#D97A28}
+  h1 .wm-base{color:#4AADE8}
+  .updated{color:var(--sub);font-size:.9rem;margin-bottom:32px}
+  .promise{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:22px;margin-bottom:36px;font-size:1.05rem}
+  .promise strong{color:var(--accent)}
+  h2{font-size:1.15rem;color:var(--accent);margin:30px 0 10px}
+  p{color:var(--sub);margin-bottom:12px}
+  ul,ol{color:var(--sub);margin:0 0 12px 22px}
+  li{margin-bottom:6px}
+  ol li{margin-bottom:10px}
+  a{color:var(--accent);text-decoration:none}
+  footer{margin-top:48px;padding-top:20px;border-top:1px solid rgba(255,255,255,.08);color:var(--sub);font-size:.85rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1><span class="wm-in">in</span><span class="wm-base">TelePrompter</span> — Privacy Policy</h1>
+  <p class="updated">Effective August 2026 · ThreeCode</p>
+
+  <div class="promise">
+    <strong>The short version:</strong> inTelePrompter collects no data. None. There are no accounts, no analytics, no tracking, no advertising, and no third-party SDKs. The app never uploads or syncs your scripts, your settings, or your recordings — they are stored on your device, and ThreeCode operates no servers it connects to.
+  </div>
+
+  <h2>What we collect</h2>
+  <p>ThreeCode operates no servers that inTelePrompter connects to. The app runs entirely offline. Our privacy and support pages are published as ordinary static web pages; opening one uses your device's browser, and nothing about you is sent to us when you do.</p>
+  <p>inTelePrompter never opens a connection on its own. Every action that reaches beyond your device is one you start, and there are no others: opening our privacy or support pages, rating the app, emailing our support team, and sharing a script or backup you have chosen to export. Each hands off to a system feature — Safari's in-app browser, the App Store, Apple's mail composer, or the share sheet. If no mail account is set up on your device, the app copies our support address to your clipboard instead of handing you off at all.</p>
+
+  <h2>Your scripts and settings</h2>
+  <p>inTelePrompter has no cloud service and no user accounts. The app never uploads or syncs your scripts, your settings, or your recordings. They are stored on your device. If you have turned on your device's iCloud Backup or iCloud Photos, iOS may include that content in your own backup — that is a setting on your device, not something the app does or controls.</p>
+  <p>If you delete the app, the data it stored on your device is deleted with it.</p>
+
+  <h2>Microphone</h2>
+  <p>'Hey Telly' is off until you turn it on. While it is on, the app uses your device's built-in speech recognition to listen for its pre-programmed command phrases. Recognition runs entirely on your device's native speech recognition, and returns text for whatever it hears, including your script as you read it. The app checks that text for the specific command phrase(s) required to activate 'Hey Telly' operations, and does nothing else with that text. During this process, 200 characters are (at most) held in a limited memory window: those characters are never written to disk, they are never sent anywhere, and they are never used to determine or anticipate where you are in your script.</p>
+  <p>Two optional features use the microphone, and both operate strictly on your device:</p>
+  <ul>
+    <li><strong>Hey Telly voice commands</strong> use your device's own built-in speech recognition. The app acts only on a fixed list of short command phrases (like "play," "pause," "rewind") — it does nothing else with any other text. Nothing it holds is written to disk or sent anywhere, and none of it is used to work out where you are in your script.</li>
+    <li><strong>Auto Pause</strong> does not use speech recognition at all. It measures how loud the microphone input is, several times a second, and compares the current level against how loudly you were speaking a moment ago. It keeps a few seconds of those loudness readings in memory — numbers only, never words and never audio — and writes none of them to disk. It responds to the silence, not to the words.</li>
+  </ul>
+  <p>Both features are optional and can be turned off in Settings at any time.</p>
+
+  <h2>What Auto Pause and Hey Telly never do</h2>
+  <ol>
+    <li><strong>Never stored</strong> — neither feature writes your voice, or any text from it, to disk. Nothing either feature holds outlives the moment it is needed: 'Auto Pause' keeps a few seconds of loudness readings, 'Hey Telly' keeps at most the last 200 characters of recognized text so it can spot a command. Neither can be used to reconstruct what you said.</li>
+    <li><strong>Never transmitted</strong> — the app sends no audio, and no text from your audio, anywhere. (Video recordings are a separate thing: those are yours, saved with sound to your Photos library as you would expect, and iOS syncs them only if you have iCloud Photos on. The app does not link your recording to positions in your script.)</li>
+    <li><strong>Never compared against your script</strong> — neither feature matches what you say against the words on your screen, in whole or in part.</li>
+    <li><strong>Never used to find your place</strong> — neither feature has any means of determining where you are in your script from the words you speak or from the sound of your voice. 'Auto Pause' returns the scroll to a point the scroll itself had already reached; your speech only supplies the moment at which that happens.</li>
+  </ol>
+
+  <h2>How we built this</h2>
+  <p>We designed inTelePrompter to use established, well-documented techniques for the audio-related features it ships with — for 'Hey Telly', the device's own speech recognition, with the app acting only on a fixed list of command phrases; and for 'Auto Pause', comparing how loudly you are speaking now with how loudly you were speaking a moment ago. These are simple, long-established approaches, freely available for decades, and we made these choices with the existing patent landscape in the teleprompter and speech-recognition spaces in mind.</p>
+  <p>We believe creators deserve tools that work reliably, transparently, and without legal complications down the road — for them and for us. Building responsibly is its own kind of quality.</p>
+
+  <h2>Camera and Photos</h2>
+  <p>If you choose to record yourself while reading, the video is saved to your Photos library. inTelePrompter has add-only Photos access: it can save new videos, but it can never read, browse, or modify your existing photos or videos. If you have iCloud Photos turned on, iOS may sync those videos — that is a setting on your device, not something the app does or controls.</p>
+
+  <h2>Files you import</h2>
+  <p>When you import a script through the Files picker, the file's text is copied into your on-device script library. Import happens only when you initiate it, and the content is stored on your device with your other scripts.</p>
+
+  <h2>Purchases</h2>
+  <p>inTelePrompter is a one-time purchase with no in-app purchases and no subscriptions. Your purchase is processed entirely by Apple; we receive no payment information about you.</p>
+
+  <h2>Children</h2>
+  <p>Because inTelePrompter collects no data from anyone, it collects no data from children.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If a future version of the app ever changes how data is handled, we will update this policy before that version ships and note the change here.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about privacy? Email us at <a href="mailto:support.threecode@gmail.com">support.threecode@gmail.com</a>.</p>
+
+  <footer>
+    <span>© 2026 ThreeCode. All rights reserved.</span>
+    <a href="support.html">Support</a>
+  </footer>
+</div>
+</body>
+</html>

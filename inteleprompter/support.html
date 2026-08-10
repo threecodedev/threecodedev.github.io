@@ -11,6 +11,8 @@
   .wrap{max-width:720px;margin:0 auto;padding:48px 24px 64px}
   h1{font-size:2rem;letter-spacing:-.02em;margin-bottom:8px}
   h1 .accent{color:var(--accent)}
+  h1 .wm-in{color:#D97A28}
+  h1 .wm-base{color:#4AADE8}
   .tagline{color:var(--sub);margin-bottom:36px}
   .contact{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:28px;margin-bottom:40px;text-align:center}
   .contact h2{font-size:1.15rem;margin-bottom:6px}
@@ -32,17 +34,24 @@
 </head>
 <body>
 <div class="wrap">
-  <h1>in<span class="accent">Tele</span>Prompter</h1>
-  <p class="tagline">Support — we read every email.</p>
+  <h1><span class="wm-in">in</span><span class="wm-base">TelePrompter</span></h1>
+  <p class="tagline">Support — help, answers, and how to reach us.</p>
 
   <div class="contact">
     <h2>Get in touch</h2>
-    <p>Questions, bug reports, feature ideas, or just want to say hi — drop us a line. A human reads every message.</p>
+    <p>Questions, bug reports, feature ideas, or just want to say hi — drop us a line.</p>
+    <p>Before you do: inTelePrompter has a complete Help section built into the app, covering every feature step by step. It works offline like the rest of the app, so it is there on a shoot with no signal.</p>
     <a class="btn" href="mailto:support.threecode@gmail.com?subject=inTelePrompter%20Support">Email Support</a>
     <span class="email-plain">or write to <a href="mailto:support.threecode@gmail.com">support.threecode@gmail.com</a></span>
   </div>
 
   <h3>Frequently asked questions</h3>
+
+  <details>
+    <summary>Where do I learn how everything works?</summary>
+    <p>Open the <strong>Help</strong> tab in the app. It is a full user manual, organised by section, with step-by-step topics for every feature — the prompter, recording, Auto Pause, Hey Telly, Rig Mode, the Parking Lot, themes and display settings, and troubleshooting.</p>
+    <p>It ships inside the app and needs no connection, so it is available wherever you are shooting. Nothing you read there is fetched from us.</p>
+  </details>
 
   <details>
     <summary>Which languages does inTelePrompter support?</summary>
@@ -55,13 +64,14 @@
   </details>
 
   <details>
-    <summary>What is Smart Pause and how does it work?</summary>
-    <p>If you stop reading mid-script, inTelePrompter notices the silence (after about 3 seconds — adjustable in Settings) and rewinds the script to where you last spoke, so you can pick up right where you left off. It uses audio activity detection only: your voice is never recorded, transmitted, or compared against your script content, and it politely disables itself in very noisy rooms.</p>
+    <summary>What is Auto Pause and how does it work?</summary>
+    <p><strong>Auto Pause</strong> notices when you stop speaking. The scroll stops, then rewinds a little — back to the point the scroll had reached when the silence began. The scroll starts again as soon as you speak. It acts after the Time Delay you set in Settings (default 2 seconds), and turns itself off in noisy rooms.</p>
+    <p>Auto Pause does not use speech recognition at all. It measures how loud the microphone input is, several times a second, and compares the current level against how loudly you were speaking a moment ago. It keeps a few seconds of those loudness readings in memory — numbers only, never words and never audio — and writes none of them to disk.</p>
   </details>
 
   <details>
     <summary>How do I use Hey Telly voice commands?</summary>
-    <p>Enable Hey Telly in Settings, then control the prompter hands-free while performing — play, pause, faster, rewind, and more. Commands work in your app language when that language's on-device dictation is available on your device (you can enable it in iOS Settings → General → Keyboard → Dictation); otherwise English commands are used. Hey Telly uses closed-vocabulary recognition entirely on your device — it listens only for those short commands and nothing else, and never transcribes or stores your audio.</p>
+    <p>Enable Hey Telly in Settings, then control the prompter hands-free while performing — play, pause, faster, rewind, and more. Commands work in your app language when that language's on-device dictation is available on your device (you can enable it in iOS Settings → General → Keyboard → Dictation); otherwise English commands are used. Hey Telly uses your device's own built-in speech recognition. The app acts only on a fixed list of short command phrases (like "play," "pause," "rewind") — it does nothing else with any other text. Nothing it holds is written to disk or sent anywhere, and none of it is used to work out where you are in your script.</p>
   </details>
 
   <details>
@@ -71,7 +81,7 @@
 
   <details>
     <summary>Does the app work offline?</summary>
-    <p>Completely. There are no accounts, no servers, and nothing to sign into. Everything — your scripts, settings, and all processing — stays on your device.</p>
+    <p>ThreeCode operates no servers that inTelePrompter connects to. The app runs entirely offline, and there are no accounts and nothing to sign into. inTelePrompter has no cloud service: it never uploads or syncs your scripts, your settings, or your recordings. They are stored on your device. If you have turned on your device's iCloud Backup or iCloud Photos, iOS may include that content in your own backup — that is a setting on your device, not something the app does or controls.</p>
   </details>
 
   <details>
