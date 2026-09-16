@@ -1,12 +1,92 @@
-<!doctype html>
-<html lang="en"><head>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
 <meta charset="utf-8">
-<title>inTelePrompter — Privacy</title>
-<link rel="canonical" href="https://threecodedev.github.io/inteleprompter/privacy.html">
-<meta http-equiv="refresh" content="0; url=../privacy.html">
-<meta name="robots" content="noindex">
-<style>body{background:#0A1520;color:#CFD8E3;font-family:-apple-system,system-ui,sans-serif;margin:0;padding:3rem 1.25rem;text-align:center;line-height:1.6}a{color:#4AADE8}</style>
-</head><body>
-<p>Taking you to the inTelePrompter privacy page&hellip;</p>
-<p><a href="../privacy.html">Continue</a></p>
-</body></html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>inTelePrompter — Política de Privacidade</title>
+<style>
+  :root{--bg:#0A1520;--bg2:#0F1B2A;--card:#152435;--text:#F4F7FA;--sub:#A8B4C0;--accent:#E8833A;--border:rgba(232,131,58,.25)}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:linear-gradient(180deg,var(--bg) 0%,var(--bg2) 100%);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.65;min-height:100vh}
+  .wrap{max-width:720px;margin:0 auto;padding:48px 24px 64px}
+  h1{font-size:1.8rem;letter-spacing:-.02em;margin-bottom:4px}
+  h1 .accent{color:var(--accent)}
+  h1 .wm-in{color:#D97A28}
+  h1 .wm-base{color:#4AADE8}
+  .updated{color:var(--sub);font-size:.9rem;margin-bottom:32px}
+  .promise{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:22px;margin-bottom:36px;font-size:1.05rem}
+  .promise strong{color:var(--accent)}
+  h2{font-size:1.15rem;color:var(--accent);margin:30px 0 10px}
+  p{color:var(--sub);margin-bottom:12px}
+  ul,ol{color:var(--sub);margin:0 0 12px 22px}
+  li{margin-bottom:6px}
+  ol li{margin-bottom:10px}
+  a{color:var(--accent);text-decoration:none}
+  footer{margin-top:48px;padding-top:20px;border-top:1px solid rgba(255,255,255,.08);color:var(--sub);font-size:.85rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1><span class="wm-in">in</span><span class="wm-base">TelePrompter</span> — Política de Privacidade</h1>
+  <p class="updated">Vigente a partir de agosto de 2026 · ThreeCode</p>
+
+  <div class="promise">
+    <strong>Em resumo:</strong> o inTelePrompter não coleta nenhum dado. Nenhum. Não há contas, nem análises de uso, nem rastreamento, nem publicidade, nem SDKs de terceiros. O app nunca envia nem sincroniza os seus roteiros, os seus ajustes ou as suas gravações — eles ficam armazenados no seu dispositivo, e a ThreeCode não opera nenhum servidor ao qual o app se conecte.
+  </div>
+
+  <h2>O que coletamos</h2>
+  <p>A ThreeCode não opera nenhum servidor ao qual o inTelePrompter se conecte. O app funciona inteiramente offline. Nossas páginas de privacidade e de suporte são publicadas como páginas web estáticas comuns; abrir uma delas usa o navegador do seu dispositivo, e nada sobre você é enviado para nós quando você faz isso.</p>
+  <p>O inTelePrompter nunca abre uma conexão por conta própria. Toda ação que vai além do seu dispositivo é iniciada por você, e não há outras: abrir nossas páginas de privacidade ou de suporte, avaliar o app, enviar um e-mail para a nossa equipe de suporte e compartilhar um roteiro ou backup que você escolheu exportar. Cada uma delas é repassada a um recurso do sistema — o navegador integrado do Safari, a App Store, o compositor de e-mail da Apple ou a folha de compartilhamento. Se não houver nenhuma conta de e-mail configurada no seu dispositivo, o app copia o nosso endereço de suporte para a sua área de transferência em vez de repassar você a algum lugar.</p>
+
+  <h2>Seus roteiros e ajustes</h2>
+  <p>O inTelePrompter não tem serviço em nuvem nem contas de usuário. O app nunca envia nem sincroniza os seus roteiros, os seus ajustes ou as suas gravações. Eles ficam armazenados no seu dispositivo. Se você tiver ativado o Backup do iCloud ou o Fotos do iCloud no seu dispositivo, o iOS pode incluir esse conteúdo no seu próprio backup — isso é um ajuste do seu dispositivo, não algo que o app faça ou controle.</p>
+  <p>Se você apagar o app, os dados que ele armazenou no seu dispositivo são apagados junto com ele.</p>
+
+  <h2>Microfone</h2>
+  <p>O ‘Olá Prompter’ fica desativado até você ativá-lo. Enquanto está ativo, o app usa o reconhecimento de fala integrado do seu dispositivo para escutar as frases de comando pré-programadas. O reconhecimento é executado inteiramente pelo reconhecimento de fala nativo do seu dispositivo e retorna texto para tudo o que ouve, incluindo o seu roteiro conforme você o lê. O app verifica nesse texto a presença da ou das frases de comando específicas necessárias para acionar as operações do ‘Olá Prompter’, e não faz mais nada com esse texto. Durante esse processo, no máximo 200 caracteres são mantidos em uma janela de memória limitada: esses caracteres nunca são gravados em disco, nunca são enviados a lugar nenhum e nunca são usados para determinar ou antecipar onde você está no seu roteiro.</p>
+  <p>Dois recursos opcionais usam o microfone, e ambos funcionam estritamente no seu dispositivo:</p>
+  <ul>
+    <li>Os <strong>comandos de voz do Olá Prompter</strong> usam o reconhecimento de fala integrado do próprio dispositivo. O app age apenas com base em uma lista fixa de frases de comando curtas (como “tocar”, “pausa”, “voltar”) — ele não faz mais nada com nenhum outro texto. Nada do que ele retém é gravado em disco ou enviado a lugar nenhum, e nada disso é usado para descobrir onde você está no seu roteiro.</li>
+    <li>A <strong>Pausa automática</strong> não usa reconhecimento de fala de forma alguma. Ela mede o quão alto está o sinal do microfone, várias vezes por segundo, e compara o nível atual com o volume com que você falava um instante atrás. Ela mantém alguns segundos dessas leituras de volume na memória — apenas números, nunca palavras e nunca áudio — e não grava nenhuma delas em disco. Ela responde ao silêncio, não às palavras.</li>
+  </ul>
+  <p>Ambos os recursos são opcionais e podem ser desativados em Ajustes a qualquer momento.</p>
+
+  <h2>O que a Pausa automática e o Olá Prompter nunca fazem</h2>
+  <ol>
+    <li><strong>Nunca armazenados</strong> — nenhum dos dois recursos grava a sua voz, nem qualquer texto derivado dela, em disco. Nada do que qualquer um deles retém sobrevive ao momento em que é necessário: a ‘Pausa automática’ mantém alguns segundos de leituras de volume, e o ‘Olá Prompter’ mantém no máximo os últimos 200 caracteres de texto reconhecido para poder identificar um comando. Nenhum dos dois pode ser usado para reconstruir o que você disse.</li>
+    <li><strong>Nunca transmitidos</strong> — o app não envia áudio, nem texto derivado do seu áudio, para lugar nenhum. (As gravações de vídeo são outra coisa: elas são suas, salvas com som na sua fototeca como você esperaria, e o iOS só as sincroniza se você tiver o Fotos do iCloud ativado. O app não vincula a sua gravação a posições no seu roteiro.)</li>
+    <li><strong>Nunca comparados com o seu roteiro</strong> — nenhum dos dois recursos compara o que você diz com as palavras na sua tela, no todo ou em parte.</li>
+    <li><strong>Nunca usados para encontrar o seu lugar</strong> — nenhum dos dois recursos tem qualquer meio de determinar onde você está no seu roteiro a partir das palavras que você fala ou do som da sua voz. A ‘Pausa automática’ devolve a rolagem a um ponto que a própria rolagem já havia alcançado; a sua fala apenas fornece o momento em que isso acontece.</li>
+  </ol>
+
+  <h2>Como construímos isso</h2>
+  <p>Projetamos o inTelePrompter para usar técnicas consagradas e bem documentadas nos recursos de áudio que ele traz — para o ‘Olá Prompter’, o próprio reconhecimento de fala do dispositivo, com o app agindo apenas com base em uma lista fixa de frases de comando; e para a ‘Pausa automática’, a comparação entre o volume com que você está falando agora e o volume com que você falava um instante atrás. São abordagens simples e há muito estabelecidas, disponíveis livremente há décadas, e fizemos essas escolhas levando em conta o cenário de patentes existente nas áreas de teleprompter e de reconhecimento de fala.</p>
+  <p>Acreditamos que os criadores merecem ferramentas que funcionem de forma confiável, transparente e sem complicações jurídicas no futuro — para eles e para nós. Construir com responsabilidade é um tipo de qualidade em si.</p>
+
+  <h2>Câmera e Fotos</h2>
+  <p>Se você optar por gravar a si mesmo enquanto lê, o vídeo é salvo na sua fototeca. O inTelePrompter tem acesso ao Fotos somente para adicionar: ele pode salvar novos vídeos, mas nunca pode ler, navegar nem modificar as suas fotos ou vídeos existentes. Se você tiver o Fotos do iCloud ativado, o iOS pode sincronizar esses vídeos — isso é um ajuste do seu dispositivo, não algo que o app faça ou controle.</p>
+
+  <h2>Arquivos que você importa</h2>
+  <p>Quando você importa um roteiro pelo seletor do app Arquivos, o texto do arquivo é copiado para a sua biblioteca de roteiros no dispositivo. A importação acontece somente quando você a inicia, e o conteúdo fica armazenado no seu dispositivo junto com os seus outros roteiros.</p>
+
+  <h2>Compras</h2>
+  <p>O inTelePrompter é uma compra única, sem compras dentro do app e sem assinaturas. A sua compra é processada inteiramente pela Apple; não recebemos nenhuma informação de pagamento sobre você.</p>
+
+  <h2>Crianças</h2>
+  <p>Como o inTelePrompter não coleta dados de ninguém, ele não coleta dados de crianças.</p>
+
+  <h2>Alterações nesta política</h2>
+  <p>Se uma versão futura do app algum dia alterar a forma como os dados são tratados, atualizaremos esta política antes do lançamento dessa versão e registraremos a alteração aqui.</p>
+
+  <h2>Contato</h2>
+  <p>Dúvidas sobre privacidade? Envie um e-mail para <a href="mailto:support.threecode@gmail.com">support.threecode@gmail.com</a>.</p>
+
+  <p style="color:var(--sub);font-size:.85rem;margin-top:40px">O inTelePrompter é escrito em inglês e publicado em outros idiomas por meio de tradução. Quando uma tradução divergir em significado, o texto em inglês é a descrição autoritativa de como o app funciona. Os compromissos acima se aplicam em todos os idiomas. <a style="color:var(--accent)" href="../privacy.html" hreflang="en" lang="en">English</a></p>
+
+  <footer>
+    <span>© 2026 ThreeCode. Todos os direitos reservados.</span>
+    <a href="support.html">Suporte</a>
+  </footer>
+</div>
+</body>
+</html>

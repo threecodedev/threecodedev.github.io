@@ -1,12 +1,105 @@
-<!doctype html>
-<html lang="en"><head>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
 <meta charset="utf-8">
-<title>inTelePrompter — Support</title>
-<link rel="canonical" href="https://threecodedev.github.io/inteleprompter/support.html">
-<meta http-equiv="refresh" content="0; url=../support.html">
-<meta name="robots" content="noindex">
-<style>body{background:#0A1520;color:#CFD8E3;font-family:-apple-system,system-ui,sans-serif;margin:0;padding:3rem 1.25rem;text-align:center;line-height:1.6}a{color:#4AADE8}</style>
-</head><body>
-<p>Taking you to the inTelePrompter support page&hellip;</p>
-<p><a href="../support.html">Continue</a></p>
-</body></html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>inTelePrompter — Assistance</title>
+<style>
+  :root{--bg:#0A1520;--bg2:#0F1B2A;--card:#152435;--text:#F4F7FA;--sub:#A8B4C0;--accent:#E8833A;--border:rgba(232,131,58,.25)}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:linear-gradient(180deg,var(--bg) 0%,var(--bg2) 100%);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.6;min-height:100vh}
+  .wrap{max-width:720px;margin:0 auto;padding:48px 24px 64px}
+  h1{font-size:2rem;letter-spacing:-.02em;margin-bottom:8px}
+  h1 .accent{color:var(--accent)}
+  h1 .wm-in{color:#D97A28}
+  h1 .wm-base{color:#4AADE8}
+  .tagline{color:var(--sub);margin-bottom:36px}
+  .contact{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:28px;margin-bottom:40px;text-align:center}
+  .contact h2{font-size:1.15rem;margin-bottom:6px}
+  .contact p{color:var(--sub);font-size:.95rem;margin-bottom:18px}
+  .btn{display:inline-block;background:var(--accent);color:#0A1520;font-weight:600;padding:12px 28px;border-radius:12px;text-decoration:none}
+  .btn:hover{filter:brightness(1.08)}
+  .email-plain{display:block;margin-top:14px;color:var(--sub);font-size:.9rem}
+  .email-plain a{color:var(--accent);text-decoration:none}
+  h3{font-size:1.2rem;margin:32px 0 12px;color:var(--accent)}
+  details{background:var(--card);border-radius:12px;margin-bottom:10px;border:1px solid rgba(255,255,255,.06)}
+  summary{padding:14px 18px;cursor:pointer;font-weight:600;list-style:none}
+  summary::-webkit-details-marker{display:none}
+  summary::before{content:"▸ ";color:var(--accent)}
+  details[open] summary::before{content:"▾ "}
+  details p{padding:0 18px 16px;color:var(--sub);font-size:.95rem}
+  footer{margin-top:48px;padding-top:20px;border-top:1px solid rgba(255,255,255,.08);color:var(--sub);font-size:.85rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+  footer a{color:var(--accent);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1><span class="wm-in">in</span><span class="wm-base">TelePrompter</span></h1>
+  <p class="tagline">Assistance — aide, réponses et moyens de nous joindre.</p>
+
+  <div class="contact">
+    <h2>Nous contacter</h2>
+    <p>Questions, signalements de bugs, idées de fonctionnalités, ou simplement envie de dire bonjour — écrivez-nous.</p>
+    <p>Avant cela : inTelePrompter intègre une section Aide complète, qui couvre chaque fonctionnalité étape par étape. Elle fonctionne hors ligne comme le reste de l'app ; elle reste donc disponible lors d'un tournage sans réseau.</p>
+    <a class="btn" href="mailto:support.threecode@gmail.com?subject=inTelePrompter%20Support">Écrire à l'assistance</a>
+    <span class="email-plain">ou écrivez à <a href="mailto:support.threecode@gmail.com">support.threecode@gmail.com</a></span>
+  </div>
+
+  <h3>Questions fréquentes</h3>
+
+  <details>
+    <summary>Où puis-je apprendre comment tout fonctionne ?</summary>
+    <p>Ouvrez l'onglet <strong>Aide</strong> dans l'app. C'est un manuel d'utilisation complet, organisé par section, avec des rubriques étape par étape pour chaque fonctionnalité — le prompteur, l'enregistrement, la Pause automatique, Bonjour Prompteur, le mode support, les Extraits de script, les thèmes et les réglages d'affichage, et le dépannage.</p>
+    <p>L'Aide est intégrée à l'app et ne nécessite aucune connexion ; elle est donc disponible où que vous tourniez. Rien de ce que vous y lisez n'est récupéré auprès de nous.</p>
+  </details>
+
+  <details>
+    <summary>Quelles langues inTelePrompter prend-il en charge ?</summary>
+    <p>L'app complète — chaque écran, menu et guide — est disponible en anglais, allemand, espagnol, français, italien, japonais, coréen et portugais du Brésil. Choisissez la vôtre dans Réglages → Langue de l'app. Vos scripts peuvent être rédigés dans n'importe quelle langue.</p>
+  </details>
+
+  <details>
+    <summary>Comment importer un script ?</summary>
+    <p>Bibliothèque → le menu + → Importer un fichier. Vous pouvez importer directement depuis l'app Fichiers dans tous les formats courants, y compris PDF et texte brut. Vous pouvez aussi créer des scripts de zéro dans l'éditeur.</p>
+  </details>
+
+  <details>
+    <summary>Qu'est-ce que la Pause automatique et comment fonctionne-t-elle ?</summary>
+    <p><strong>La Pause automatique</strong> détecte le moment où vous cessez de parler. Le défilement s'arrête, puis revient légèrement en arrière — jusqu'au point que le défilement avait atteint quand le silence a commencé. Le défilement reprend dès que vous parlez. Elle agit après le Délai que vous définissez dans Réglages (2 secondes par défaut) et se désactive d'elle-même dans les pièces bruyantes.</p>
+    <p>La « Pause automatique » n'utilise pas du tout la reconnaissance vocale. Elle mesure plusieurs fois par seconde le volume du signal du micro et compare le niveau actuel à celui auquel vous parliez un instant plus tôt. Elle conserve en mémoire quelques secondes de ces mesures de volume — des chiffres uniquement, jamais de mots ni d'audio — et n'en écrit aucune sur le disque.</p>
+  </details>
+
+  <details>
+    <summary>Comment utiliser les commandes vocales Bonjour Prompteur ?</summary>
+    <p>Activez Bonjour Prompteur dans Réglages, puis contrôlez le prompteur mains libres pendant votre présentation — lecture, pause, plus vite, rembobiner, et plus encore. Les commandes fonctionnent dans la langue de votre app lorsque la dictée sur l'appareil pour cette langue est disponible sur votre appareil (dans l'app Réglages d'iOS, allez dans Général → Clavier → Langues de dictée et ajoutez votre langue) ; sinon, les commandes en anglais sont utilisées. Bonjour Prompteur utilise la reconnaissance vocale intégrée à votre propre appareil. L'app n'agit que sur une liste fixe de courtes phrases de commande (comme « lecture », « pause », « rembobiner ») — elle ne fait rien de tout autre texte. Rien de ce qu'elle conserve n'est écrit sur le disque ni envoyé où que ce soit, et rien de tout cela n'est utilisé pour déterminer où vous en êtes dans votre script.</p>
+  </details>
+
+  <details>
+    <summary>Mes enregistrements — où vont-ils ?</summary>
+    <p>Les vidéos que vous filmez sont enregistrées directement dans votre photothèque. inTelePrompter dispose d'un accès en ajout uniquement : il peut enregistrer de nouvelles vidéos, mais il ne peut jamais lire, parcourir ni modifier vos photos existantes.</p>
+  </details>
+
+  <details>
+    <summary>L'app fonctionne-t-elle hors ligne ?</summary>
+    <p>ThreeCode n'exploite aucun serveur auquel inTelePrompter se connecte. L'app fonctionne entièrement hors ligne, et il n'y a aucun compte ni rien à quoi se connecter. inTelePrompter n'a aucun service cloud : il n'envoie ni ne synchronise jamais vos scripts, vos réglages ou vos enregistrements. Ils sont stockés sur votre appareil. Si vous avez activé la sauvegarde iCloud ou Photos iCloud sur votre appareil, iOS peut inclure ce contenu dans votre propre sauvegarde — il s'agit d'un réglage de votre appareil, et non d'une action de l'app ni de quelque chose qu'elle contrôle.</p>
+  </details>
+
+  <details>
+    <summary>Comment fonctionnent les remboursements ?</summary>
+    <p>Les achats étant gérés par Apple, les demandes de remboursement passent par Apple : rendez-vous sur <a style="color:var(--accent)" href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>, connectez-vous avec votre compte Apple et choisissez l'achat. Apple répond généralement sous un ou deux jours.</p>
+  </details>
+
+  <details>
+    <summary>J'ai trouvé un bug. Que dois-je indiquer dans mon e-mail ?</summary>
+    <p>Le modèle de votre appareil, la version d'iOS, la langue de l'app et ce que vous faisiez lorsque le problème est survenu. Les captures d'écran ou les enregistrements d'écran valent de l'or. Nous prenons les bugs au sérieux — la plupart des correctifs sont publiés dans la mise à jour suivante.</p>
+  </details>
+
+  <p style="color:var(--sub);font-size:.85rem;margin-top:40px">inTelePrompter est rédigé en anglais et publié dans d&#x27;autres langues par traduction. En cas de différence de sens, le texte anglais constitue la description faisant foi du fonctionnement de l&#x27;app. Les engagements ci-dessus s&#x27;appliquent dans toutes les langues. <a style="color:var(--accent)" href="../support.html" hreflang="en" lang="en">English</a></p>
+
+  <footer>
+    <span>© 2026 ThreeCode. Tous droits réservés.</span>
+    <a href="privacy.html">Politique de confidentialité</a>
+  </footer>
+</div>
+</body>
+</html>

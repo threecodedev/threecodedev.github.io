@@ -1,12 +1,92 @@
-<!doctype html>
-<html lang="en"><head>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
 <meta charset="utf-8">
-<title>inTelePrompter — Privacy</title>
-<link rel="canonical" href="https://threecodedev.github.io/inteleprompter/privacy.html">
-<meta http-equiv="refresh" content="0; url=../privacy.html">
-<meta name="robots" content="noindex">
-<style>body{background:#0A1520;color:#CFD8E3;font-family:-apple-system,system-ui,sans-serif;margin:0;padding:3rem 1.25rem;text-align:center;line-height:1.6}a{color:#4AADE8}</style>
-</head><body>
-<p>Taking you to the inTelePrompter privacy page&hellip;</p>
-<p><a href="../privacy.html">Continue</a></p>
-</body></html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>inTelePrompter — Politique de confidentialité</title>
+<style>
+  :root{--bg:#0A1520;--bg2:#0F1B2A;--card:#152435;--text:#F4F7FA;--sub:#A8B4C0;--accent:#E8833A;--border:rgba(232,131,58,.25)}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:linear-gradient(180deg,var(--bg) 0%,var(--bg2) 100%);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.65;min-height:100vh}
+  .wrap{max-width:720px;margin:0 auto;padding:48px 24px 64px}
+  h1{font-size:1.8rem;letter-spacing:-.02em;margin-bottom:4px}
+  h1 .accent{color:var(--accent)}
+  h1 .wm-in{color:#D97A28}
+  h1 .wm-base{color:#4AADE8}
+  .updated{color:var(--sub);font-size:.9rem;margin-bottom:32px}
+  .promise{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:22px;margin-bottom:36px;font-size:1.05rem}
+  .promise strong{color:var(--accent)}
+  h2{font-size:1.15rem;color:var(--accent);margin:30px 0 10px}
+  p{color:var(--sub);margin-bottom:12px}
+  ul,ol{color:var(--sub);margin:0 0 12px 22px}
+  li{margin-bottom:6px}
+  ol li{margin-bottom:10px}
+  a{color:var(--accent);text-decoration:none}
+  footer{margin-top:48px;padding-top:20px;border-top:1px solid rgba(255,255,255,.08);color:var(--sub);font-size:.85rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1><span class="wm-in">in</span><span class="wm-base">TelePrompter</span> — Politique de confidentialité</h1>
+  <p class="updated">En vigueur à compter d'août 2026 · ThreeCode</p>
+
+  <div class="promise">
+    <strong>En bref :</strong> inTelePrompter ne collecte aucune donnée. Aucune. Il n'y a aucun compte, aucune analyse d'utilisation, aucun suivi, aucune publicité et aucun SDK tiers. L'app n'envoie ni ne synchronise jamais vos scripts, vos réglages ou vos enregistrements — ils sont stockés sur votre appareil, et ThreeCode n'exploite aucun serveur auquel l'app se connecte.
+  </div>
+
+  <h2>Ce que nous collectons</h2>
+  <p>ThreeCode n'exploite aucun serveur auquel inTelePrompter se connecte. L'app fonctionne entièrement hors ligne. Nos pages de confidentialité et d'assistance sont publiées sous forme de simples pages web statiques ; leur ouverture utilise le navigateur de votre appareil, et rien vous concernant ne nous est transmis lorsque vous le faites.</p>
+  <p>inTelePrompter n'ouvre jamais de connexion de lui-même. Chaque action qui dépasse les limites de votre appareil est une action que vous déclenchez, et il n'y en a pas d'autres : ouvrir nos pages de confidentialité ou d'assistance, noter l'app, écrire à notre équipe d'assistance, et partager un script ou une sauvegarde que vous avez choisi d'exporter. Chacune est confiée à une fonctionnalité du système — le navigateur intégré de Safari, l'App Store, le module de rédaction de Mail d'Apple, ou la feuille de partage. Si aucun compte de messagerie n'est configuré sur votre appareil, l'app copie notre adresse d'assistance dans votre presse-papiers au lieu de vous rediriger.</p>
+
+  <h2>Vos scripts et vos réglages</h2>
+  <p>inTelePrompter n'a ni service cloud ni comptes utilisateur. L'app n'envoie ni ne synchronise jamais vos scripts, vos réglages ou vos enregistrements. Ils sont stockés sur votre appareil. Si vous avez activé la sauvegarde iCloud ou Photos iCloud sur votre appareil, iOS peut inclure ce contenu dans votre propre sauvegarde — il s'agit d'un réglage de votre appareil, et non d'une action de l'app ni de quelque chose qu'elle contrôle.</p>
+  <p>Si vous supprimez l'app, les données qu'elle a stockées sur votre appareil sont supprimées avec elle.</p>
+
+  <h2>Micro</h2>
+  <p>« Bonjour Prompteur » est désactivé jusqu'à ce que vous l'activiez. Lorsqu'il est actif, l'app utilise la reconnaissance vocale intégrée à votre appareil pour écouter ses phrases de commande préprogrammées. La reconnaissance s'exécute entièrement via la reconnaissance vocale native de votre appareil et renvoie du texte pour tout ce qu'elle entend, y compris votre script à mesure que vous le lisez. L'app vérifie dans ce texte la ou les phrases de commande spécifiques requises pour activer les opérations « Bonjour Prompteur », et ne fait rien d'autre de ce texte. Au cours de ce processus, 200 caractères au maximum sont conservés dans une fenêtre mémoire limitée : ces caractères ne sont jamais écrits sur le disque, ne sont jamais envoyés où que ce soit, et ne sont jamais utilisés pour déterminer ni anticiper où vous en êtes dans votre script.</p>
+  <p>Deux fonctionnalités facultatives utilisent le micro, et toutes deux fonctionnent strictement sur votre appareil :</p>
+  <ul>
+    <li><strong>Les commandes vocales Bonjour Prompteur</strong> utilisent la reconnaissance vocale intégrée à votre propre appareil. L'app n'agit que sur une liste fixe de courtes phrases de commande (comme « lecture », « pause », « rembobiner ») — elle ne fait rien de tout autre texte. Rien de ce qu'elle conserve n'est écrit sur le disque ni envoyé où que ce soit, et rien de tout cela n'est utilisé pour déterminer où vous en êtes dans votre script.</li>
+    <li><strong>La Pause automatique</strong> n'utilise pas du tout la reconnaissance vocale. Elle mesure plusieurs fois par seconde le volume du signal du micro et compare le niveau actuel à celui auquel vous parliez un instant plus tôt. Elle conserve en mémoire quelques secondes de ces mesures de volume — des chiffres uniquement, jamais de mots ni d'audio — et n'en écrit aucune sur le disque. Elle réagit au silence, pas aux mots.</li>
+  </ul>
+  <p>Ces deux fonctionnalités sont facultatives et peuvent être désactivées à tout moment dans Réglages.</p>
+
+  <h2>Ce que la Pause automatique et Bonjour Prompteur ne font jamais</h2>
+  <ol>
+    <li><strong>Aucun stockage</strong> — aucune des deux fonctionnalités n'écrit votre voix, ni aucun texte qui en provient, sur le disque. Rien de ce que l'une ou l'autre retient ne survit au moment où cela est nécessaire : la « Pause automatique » conserve quelques secondes de relevés de volume sonore, « Bonjour Prompteur » conserve au maximum les 200 derniers caractères du texte reconnu afin de pouvoir repérer une commande. Ni l'une ni l'autre ne peut servir à reconstituer ce que vous avez dit.</li>
+    <li><strong>Aucune transmission</strong> — l'app n'envoie aucun audio, ni aucun texte issu de votre audio, où que ce soit. (Les enregistrements vidéo sont une chose distincte : ils sont à vous, enregistrés avec le son dans votre photothèque, comme vous vous y attendez, et iOS ne les synchronise que si vous avez activé Photos iCloud. L'app n'associe pas votre enregistrement à des positions dans votre script.)</li>
+    <li><strong>Aucune comparaison avec votre script</strong> — aucune des deux fonctionnalités ne met en correspondance ce que vous dites avec les mots affichés à l'écran, en tout ou en partie.</li>
+    <li><strong>Aucune utilisation pour retrouver votre place</strong> — aucune des deux fonctionnalités ne dispose du moindre moyen de déterminer où vous en êtes dans votre script à partir des mots que vous prononcez ou du son de votre voix. La « Pause automatique » ramène le défilement à un point que le défilement avait lui-même déjà atteint ; votre parole ne fournit que le moment auquel cela se produit.</li>
+  </ol>
+
+  <h2>Comment nous l'avons conçu</h2>
+  <p>Nous avons conçu inTelePrompter pour qu'il utilise des techniques éprouvées et bien documentées pour les fonctionnalités audio qu'il propose — pour « Bonjour Prompteur », la reconnaissance vocale intégrée à l'appareil, l'app n'agissant que sur la base d'une liste fixe de phrases de commande ; et pour la « Pause automatique », la comparaison entre le volume auquel vous parlez maintenant et celui auquel vous parliez un instant plus tôt. Ce sont des approches simples, établies de longue date, librement disponibles depuis des décennies, et nous avons fait ces choix en tenant compte du paysage des brevets existant dans les domaines du téléprompteur et de la reconnaissance vocale.</p>
+  <p>Nous pensons que les créateurs méritent des outils qui fonctionnent de façon fiable et transparente, sans complications juridiques par la suite — pour eux comme pour nous. Construire de façon responsable est une forme de qualité à part entière.</p>
+
+  <h2>Appareil photo et Photos</h2>
+  <p>Si vous choisissez de vous filmer pendant votre lecture, la vidéo est enregistrée dans votre photothèque. inTelePrompter dispose d'un accès à Photos en ajout uniquement : il peut enregistrer de nouvelles vidéos, mais il ne peut jamais lire, parcourir ni modifier vos photos ou vidéos existantes. Si vous avez activé Photos iCloud, iOS peut synchroniser ces vidéos — il s'agit d'un réglage de votre appareil, et non d'une action de l'app ni de quelque chose qu'elle contrôle.</p>
+
+  <h2>Fichiers que vous importez</h2>
+  <p>Lorsque vous importez un script via le sélecteur Fichiers, le texte du fichier est copié dans votre bibliothèque de scripts sur l'appareil. L'importation n'a lieu que lorsque vous la lancez, et le contenu est stocké sur votre appareil avec vos autres scripts.</p>
+
+  <h2>Achats</h2>
+  <p>inTelePrompter est un achat unique, sans achats intégrés et sans abonnements. Votre achat est entièrement traité par Apple ; nous ne recevons aucune information de paiement vous concernant.</p>
+
+  <h2>Enfants</h2>
+  <p>Comme inTelePrompter ne collecte aucune donnée auprès de qui que ce soit, il ne collecte aucune donnée auprès des enfants.</p>
+
+  <h2>Modifications de cette politique</h2>
+  <p>Si une future version de l'app modifie un jour la manière dont les données sont traitées, nous mettrons à jour cette politique avant la sortie de cette version et signalerons la modification ici.</p>
+
+  <h2>Contact</h2>
+  <p>Des questions sur la confidentialité ? Écrivez-nous à <a href="mailto:support.threecode@gmail.com">support.threecode@gmail.com</a>.</p>
+
+  <p style="color:var(--sub);font-size:.85rem;margin-top:40px">inTelePrompter est rédigé en anglais et publié dans d&#x27;autres langues par traduction. En cas de différence de sens, le texte anglais constitue la description faisant foi du fonctionnement de l&#x27;app. Les engagements ci-dessus s&#x27;appliquent dans toutes les langues. <a style="color:var(--accent)" href="../privacy.html" hreflang="en" lang="en">English</a></p>
+
+  <footer>
+    <span>© 2026 ThreeCode. Tous droits réservés.</span>
+    <a href="support.html">Assistance</a>
+  </footer>
+</div>
+</body>
+</html>
