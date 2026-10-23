@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pod Performer</title>
+<meta name="description" content="Pod Performer, the podcaster's rundown and teleprompter studio from ThreeCode: support and privacy.">
+<style>
+  :root{--paper:#F2F0E9;--card:#FFFFFF;--ink:#1B1A18;--sub:#55524C;--red:#9B0000;--line:rgba(0,0,0,.10)}
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{background:var(--paper)}
+  body{background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.65;min-height:100vh}
+  .hero{background:radial-gradient(ellipse 90% 80% at 50% 38%,#A80000 0%,#9B0000 48%,#4A0000 100%);padding:22px 20px 38px;text-align:center;color:#fff}
+  .crumbs{max-width:720px;margin:0 auto 22px;text-align:left;font-size:.82rem;color:rgba(255,255,255,.78)}
+  .crumbs a{color:#fff;text-decoration:underline;text-decoration-color:rgba(255,255,255,.45);text-underline-offset:3px}
+  .brandrow{display:flex;align-items:center;justify-content:center;gap:clamp(10px,3vw,18px)}
+  .brandrow img{height:clamp(92px,26vw,148px);width:auto;display:block}
+  .lockup{display:inline-block;color:#fff;line-height:.86;text-transform:uppercase;text-align:left;margin:0}
+  .lockup .pod{display:block;font-weight:900;font-size:clamp(3.3rem,15vw,5.8rem);letter-spacing:-.02em}
+  .lockup .perf{display:block;font-weight:900;font-size:clamp(1.35rem,6.1vw,2.35rem);letter-spacing:.01em;margin-top:.08em}
+  .lockup sup{font-size:.34em;font-weight:600;vertical-align:top;margin-left:.1em}
+  .hero h1:not(.lockup){margin-top:16px;font-weight:800;font-size:clamp(1.15rem,4.6vw,1.45rem);letter-spacing:.02em;color:#fff}
+  .tag{margin-top:14px;font-weight:600;color:rgba(255,255,255,.92);font-size:clamp(.92rem,3.6vw,1.05rem)}
+  .sig{margin-top:16px;font-size:11px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.82)}
+  .wrap{max-width:720px;margin:0 auto;padding:34px 22px 20px}
+  .updated{color:var(--sub);font-size:.88rem;margin-bottom:22px}
+  .promise{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--red);border-radius:14px;padding:20px 20px 20px 18px;margin-bottom:30px;font-size:1.04rem}
+  .promise strong{color:var(--red)}
+  h2{font-size:1.02rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--red);margin:32px 0 10px}
+  h3{font-size:1.02rem;font-weight:700;color:var(--ink);margin:18px 0 6px}
+  p{color:var(--sub);margin-bottom:12px}
+  ul,ol{color:var(--sub);margin:0 0 12px 22px}
+  li{margin-bottom:8px}
+  li strong,p strong{color:var(--ink)}
+  a{color:var(--red);font-weight:600;text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
+  a:focus-visible{outline:2px solid var(--red);outline-offset:2px;border-radius:3px}
+  .hero a:focus-visible{outline-color:#fff}
+  .mail{overflow-wrap:anywhere}
+  .cards{display:flex;gap:14px;flex-wrap:wrap}
+  .cardlink{flex:1 1 250px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px;text-decoration:none;color:var(--ink);display:block}
+  .cardlink:hover{border-color:var(--red)}
+  .cardlink h2{margin:0 0 6px}
+  .cardlink p{margin:0;font-size:.95rem}
+  footer{max-width:720px;margin:0 auto;padding:18px 22px 40px;border-top:1px solid var(--line);color:var(--sub);font-size:.82rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+  footer a{font-weight:600}
+</style>
+</head>
+<body>
+<header class="hero">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="../">ThreeCode</a> › Pod Performer</nav>
+  <div class="brandrow"><img src="img/mic.png" alt="" width="174" height="386"><h1 class="lockup" aria-label="Pod Performer"><span class="pod">Pod</span><span class="perf">Performer<sup>™</sup></span></h1></div>
+  <p class="tag">The Podcaster's Rundown &amp; Teleprompter Studio</p>
+  <p class="sig">By ThreeCode</p>
+</header>
+<main class="wrap">
+  <div class="cards">
+    <a class="cardlink" href="support.html">
+      <h2>Support</h2>
+      <p>Help, answers, and how to reach us.</p>
+    </a>
+    <a class="cardlink" href="privacy.html">
+      <h2>Privacy Policy</h2>
+      <p>What the app does with your data, in plain language.</p>
+    </a>
+  </div>
+</main>
+<footer>
+  <span>© 2026 ThreeCode</span>
+  <span><a href="support.html">Support</a> · <a href="privacy.html">Privacy</a></span>
+</footer>
+</body>
+</html>

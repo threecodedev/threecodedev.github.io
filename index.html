@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ThreeCode</title>
+<meta name="description" content="ThreeCode makes apps for creators, including inTelePrompter.">
+<style>
+  :root{--ground:#0F1012;--ground2:#0A0A0B;--panel:#17181B;--text:#F2F2F3;--sub:#A5A8AD;--line:rgba(255,255,255,.10)}
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{background:var(--ground2)}
+  body{background:linear-gradient(180deg,var(--ground) 0%,var(--ground2) 100%);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.6;min-height:100vh}
+  .wrap{max-width:760px;margin:0 auto;padding:56px 22px 60px}
+  .label{font-size:2.3rem;font-weight:700;letter-spacing:-.02em}
+  .sig{margin-top:6px;font-size:11px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--sub)}
+  .intro{color:var(--sub);margin:22px 0 38px;max-width:560px;font-size:1.02rem}
+  .apps{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr));gap:18px;margin-bottom:40px}
+  .app{display:flex;flex-direction:column;justify-content:space-between;min-height:250px;border-radius:18px;padding:30px 24px 22px;text-decoration:none;text-align:center;overflow:hidden;border:1px solid var(--line)}
+  .app:hover{filter:brightness(1.07)}
+  .app .go{margin-top:22px;font-size:.88rem;font-weight:600}
+  /* inTelePrompter: refined — navy, light/bold lettering, a thin orange rule */
+  .itp{background:radial-gradient(ellipse 80% 70% at 50% 40%,#12202F 0%,#0C1520 70%,#09111A 100%)}
+  .itp .wm{font-size:clamp(2rem,7.4vw,2.5rem);letter-spacing:-.02em;line-height:1.1;margin-top:18px}
+  .itp .wm .in{color:#D97A28;font-weight:300}
+  .itp .wm .tele{color:#4AADE8;font-weight:700}
+  .itp .wm .prompter{color:#4AADE8;font-weight:300}
+  .itp .wm sup{color:#4AADE8;font-size:.32em;font-weight:400;vertical-align:top}
+  .itp .rule{width:44px;height:2px;border-radius:1px;background:#D97A28;margin:14px auto 12px}
+  .itp .tag{color:#9FB0C0;font-size:.9rem;font-weight:400;letter-spacing:.3px}
+  .itp .go{color:#D97A28}
+  .contact{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:22px}
+  .contact h2{font-size:1.02rem;margin-bottom:6px}
+  .contact p{color:var(--sub)}
+  .mail{overflow-wrap:anywhere}
+  .app:focus-visible,.contact a:focus-visible{outline:2px solid #fff;outline-offset:3px}
+  .contact a{color:var(--text);font-weight:600;text-decoration:underline;text-underline-offset:3px}
+  footer{margin-top:44px;padding-top:18px;border-top:1px solid rgba(255,255,255,.07);color:var(--sub);font-size:.82rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1 class="label">ThreeCode</h1>
+    <div class="sig">Apps for creators</div>
+  </header>
+  <main>
+  <p class="intro">We are a small, independent studio making apps for iPad and iPhone. Each one has its own personality.</p>
+
+  <div class="apps">
+    <a class="app itp" href="inteleprompter/">
+      <div>
+        <div class="wm"><span class="in">in</span><span class="tele">Tele</span><span class="prompter">Prompter</span><sup>™</sup></div>
+        <div class="rule"></div>
+        <div class="tag">The Premium Multilingual Teleprompter for Content Creators</div>
+      </div>
+      <div class="go">Support &amp; privacy →</div>
+    </a>
+  </div>
+
+  <div class="contact">
+    <h2>Need help?</h2>
+    <p>Email <a class="mail" href="mailto:support.threecode@gmail.com">support.threecode@gmail.com</a> and tell us which app you're using.</p>
+  </div>
+
+  </main>
+  <footer>© 2026 ThreeCode</footer>
+</div>
+</body>
+</html>
